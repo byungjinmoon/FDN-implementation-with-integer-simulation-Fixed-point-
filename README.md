@@ -14,6 +14,7 @@ After integer operation, it is converted to a floating value.
     ![image](https://user-images.githubusercontent.com/86009768/138582559-e83cd612-4442-46c0-9ea7-2c4a6f399d3b.png)
     
 * Data Width and Q format 
+
   Q-format is determined according to the number of bits of the data bus and the specification of the DSP processor. Q-format is partitioned to sign, integer, and fraction part as shown in the figure, and Q-format is determined according to the range of float values to be converted to integer.
 
   ![image](https://user-images.githubusercontent.com/86009768/138582574-924723a7-9a5a-4c5c-817c-d8773b793891.png)
