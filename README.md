@@ -48,4 +48,7 @@ After integer operation, it is converted to a floating value.
   * Set Q-format of the Input, output, coefficients…
     ![image](https://user-images.githubusercontent.com/86009768/138683890-1501c29d-3b5b-46c2-9c68-164607cffc53.png)
 
+* Integer simulation steps
+  ![image](https://user-images.githubusercontent.com/86009768/138686328-5aa42419-5b17-4293-8d55-3262c0da77de.png)
+
 
