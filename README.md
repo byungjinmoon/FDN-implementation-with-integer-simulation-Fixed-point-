@@ -77,6 +77,7 @@ After integer operation, it is converted to a floating value.
 
          ![image](https://user-images.githubusercontent.com/86009768/138691421-cd28067d-0802-412e-9c11-759467a6a685.png)
 
-
-        
+  
+  * Ported on DSP board
+    ![image](https://user-images.githubusercontent.com/86009768/138691676-2f3707f0-24e8-414e-8b20-b4f50a7befbf.png)
 
