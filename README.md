@@ -42,4 +42,10 @@ After integer operation, it is converted to a floating value.
     
       ![image](https://user-images.githubusercontent.com/86009768/138582658-cb6bef15-53cb-4d18-b2b2-867aafb726a9.png)
 
+# Experimental results
+
+* Integer simulation of FDN reverberation using Q-format
+  * Set Q-format of the Input, output, coefficients…
+    ![image](https://user-images.githubusercontent.com/86009768/138683890-1501c29d-3b5b-46c2-9c68-164607cffc53.png)
+
 
