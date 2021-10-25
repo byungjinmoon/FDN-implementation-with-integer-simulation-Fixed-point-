@@ -51,8 +51,30 @@ After integer operation, it is converted to a floating value.
 * Integer simulation steps
   ![image](https://user-images.githubusercontent.com/86009768/138686439-4cbf02c5-90fc-49ad-a2e1-82f1a6c18cd0.png)
   
-  *Rounding example
+  *__Rounding example__
+    
     When Q32.31 is obtained as a result of FIR or IIR filtering of Q16.15, round calculation is performed by adding 0x8000 before truncation of the necessary preceding 16 bits.
     
     ![image](https://user-images.githubusercontent.com/86009768/138687701-06e91c68-d3c8-4aad-95a4-11b66c2860ea.png)
+
+* Exepriments and Results
+  * Frequency dependent FDN using __FIR__ filtering 
+    * Precision of integer simulation
+      * Difference between Floating and Fixed Point
+        The figure shows the difference between floating point and fixed point simulation results, and a difference of about 10 to 15 (4 bits) occurs.
+
+        ![image](https://user-images.githubusercontent.com/86009768/138690984-88f029b1-a9f7-4b4b-988c-df79c20356ea.png)
+   
+   * Frequency dependent FDN using __IIR__ filtering 
+     * Design IIR filter and set Q-format
+       ![image](https://user-images.githubusercontent.com/86009768/138691129-c9451ea5-9bba-4808-aac7-55d99307186e.png)
+     
+     * Precision of integer simulation
+       * Difference between Floating and Fixed Point
+         The figure shows the difference between floating point and fixed point simulation results, and a difference of about 2 to 4 (2 bits) occurs.
+
+         ![image](https://user-images.githubusercontent.com/86009768/138691421-cd28067d-0802-412e-9c11-759467a6a685.png)
+
+
+        
 
