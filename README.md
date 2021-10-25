@@ -49,6 +49,10 @@ After integer operation, it is converted to a floating value.
     ![image](https://user-images.githubusercontent.com/86009768/138683890-1501c29d-3b5b-46c2-9c68-164607cffc53.png)
 
 * Integer simulation steps
-  ![image](https://user-images.githubusercontent.com/86009768/138686328-5aa42419-5b17-4293-8d55-3262c0da77de.png)
-
+  ![image](https://user-images.githubusercontent.com/86009768/138686439-4cbf02c5-90fc-49ad-a2e1-82f1a6c18cd0.png)
+  
+  * Rounding example
+    When Q32.31 is obtained as a result of FIR or IIR filtering of Q16.15, round calculation is performed by adding 0x8000 before truncation of the necessary preceding 16 bits.
+    
+    ![image](https://user-images.githubusercontent.com/86009768/138687701-06e91c68-d3c8-4aad-95a4-11b66c2860ea.png)
 
