@@ -61,6 +61,7 @@ After integer operation, it is converted to a floating value.
   * Frequency dependent FDN using __FIR__ filtering 
     * Precision of integer simulation
       * Difference between Floating and Fixed Point
+       
         The figure shows the difference between floating point and fixed point simulation results, and a difference of about 10 to 15 (4 bits) occurs.
 
         ![image](https://user-images.githubusercontent.com/86009768/138690984-88f029b1-a9f7-4b4b-988c-df79c20356ea.png)
@@ -71,6 +72,7 @@ After integer operation, it is converted to a floating value.
      
      * Precision of integer simulation
        * Difference between Floating and Fixed Point
+         
          The figure shows the difference between floating point and fixed point simulation results, and a difference of about 2 to 4 (2 bits) occurs.
 
          ![image](https://user-images.githubusercontent.com/86009768/138691421-cd28067d-0802-412e-9c11-759467a6a685.png)
