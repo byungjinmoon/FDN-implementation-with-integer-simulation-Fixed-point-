@@ -35,13 +35,13 @@ After integer operation, it is converted to a floating value.
     * Overflow protection
     * Example) 0.75 + 0.5 = 1.25
     
-      ![image](https://user-images.githubusercontent.com/86009768/138582614-c6057067-c0c5-4c8d-9d5b-c6c3f057b309.png)
+        <img src="https://user-images.githubusercontent.com/86009768/138582614-c6057067-c0c5-4c8d-9d5b-c6c3f057b309.png" width="500" height="200">
 
 * Q Format Multiplication
   * Considerations
     * Difference between integer and fixed-point multiplication
     
-      ![image](https://user-images.githubusercontent.com/86009768/138582658-cb6bef15-53cb-4d18-b2b2-867aafb726a9.png)
+       <img src="https://user-images.githubusercontent.com/86009768/138582658-cb6bef15-53cb-4d18-b2b2-867aafb726a9.png" width="550" height="400">
 
 # Experimental results
 
@@ -50,13 +50,15 @@ After integer operation, it is converted to a floating value.
     ![image](https://user-images.githubusercontent.com/86009768/138683890-1501c29d-3b5b-46c2-9c68-164607cffc53.png)
 
 * Integer simulation steps
-  ![image](https://user-images.githubusercontent.com/86009768/138686439-4cbf02c5-90fc-49ad-a2e1-82f1a6c18cd0.png)
+
+  <img src="https://user-images.githubusercontent.com/86009768/138686439-4cbf02c5-90fc-49ad-a2e1-82f1a6c18cd0.png" width="650" height="300">
+
   
   *__Rounding example__
     
     When Q32.31 is obtained as a result of FIR or IIR filtering of Q16.15, round calculation is performed by adding 0x8000 before truncation of the necessary preceding 16 bits.
     
-    ![image](https://user-images.githubusercontent.com/86009768/138687701-06e91c68-d3c8-4aad-95a4-11b66c2860ea.png)
+    <img src="https://user-images.githubusercontent.com/86009768/138687701-06e91c68-d3c8-4aad-95a4-11b66c2860ea.png" width="800" height="400">
 
 * Exepriments and Results
   * Frequency dependent FDN using __FIR__ filtering 
@@ -69,8 +71,9 @@ After integer operation, it is converted to a floating value.
    
    * Frequency dependent FDN using __IIR__ filtering 
      * Design IIR filter and set Q-format
-       ![image](https://user-images.githubusercontent.com/86009768/138691129-c9451ea5-9bba-4808-aac7-55d99307186e.png)
-     
+       
+       <img src="https://user-images.githubusercontent.com/86009768/138691129-c9451ea5-9bba-4808-aac7-55d99307186e.png" width="1400" height="400">
+
      * Precision of integer simulation
        * Difference between Floating and Fixed Point
          
