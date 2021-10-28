@@ -113,6 +113,7 @@ int main()
 
 		
 	}
+	//Fixed point 계산 후 floating으로 변환
 	for (i = 0; i < length; i++)
 	{
 		printf("%f ", (float)y_Q[i]/32767);
